@@ -47,4 +47,25 @@ export const MenuItem = styled.li`
   max-width: 211px;
   width: 100%;
   border-left: 1px solid rgba(222, 222, 222, 1);
+
+  &:first-child {
+    color: rgba(
+      247,
+      25,
+      99,
+      1
+    ); /* Change this to the color you want on hover */
+    cursor: pointer;
+    border-left: 0px solid rgba(222, 222, 222, 1);
+  }
+
+  &:hover {
+    color: rgba(
+      247,
+      25,
+      99,
+      1
+    ); /* Change this to the color you want on hover */
+    cursor: pointer;
+  }
 `;

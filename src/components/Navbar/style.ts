@@ -23,4 +23,14 @@ export const NavBarItem = styled.li`
   font-size: 12px;
   font-weight: 600;
   color: #9f9f9f;
+
+  &:hover {
+    color: rgba(
+      247,
+      25,
+      99,
+      1
+    ); /* Change this to the color you want on hover */
+    cursor: pointer;
+  }
 `;
